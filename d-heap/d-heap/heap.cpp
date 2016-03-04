@@ -24,7 +24,7 @@ void dheap :: vspl(int i) {
   if ((i < 0)  || (i > size))
     throw std::exception("wrong index");
   int p = (i - 1) / d;
-  while ((p > 0) && (arr[p] > arr[i])) {
+  while ((i != 0) && (arr[p] > arr[i])) {
     swap(i, p);
     i = p;
     p = (i - 1) / d;
