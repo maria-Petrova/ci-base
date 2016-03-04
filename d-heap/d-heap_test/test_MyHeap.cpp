@@ -10,8 +10,8 @@ TEST(heap, Can_swap) {
   H1.arr[0] = 7;
   H1.arr[1] = 2;
   H1.arr[2] = 5;
-  H.swap(0,1);
-  for(int i = 0; i < 3; i++)
+  H.swap(0, 1);
+  for (int i = 0; i < 3; i++)
     EXPECT_EQ(H.arr[i], H1.arr[i]);
 }
 
@@ -23,7 +23,7 @@ TEST(heap, minchild_test) {
 }
 
 TEST(heap, cant_down_with_wrong_idx) {
-  dheap h(5,2);
+  dheap h(5, 2);
   ASSERT_ANY_THROW(h.vspl(-1));
 }
 

@@ -3,7 +3,7 @@
 dheap :: dheap(int s, int dd) {
   size = s;
   arr = new int[size];
-  for(int i = 0; i < size; i++)
+  for (int i = 0; i < size; i++)
     arr[i] = rand()%100;
   d = dd;
 }
@@ -24,7 +24,7 @@ void dheap :: vspl(int i) {
   if ((i < 0)  || (i > size))
     throw std::exception("wrong index");
   int p = (i - 1) / d;
-  while((p > 0) && (arr[p] > arr[i])) {
+  while ((p > 0) && (arr[p] > arr[i])) {
     swap(i, p);
     i = p;
     p = (i - 1) / d;
@@ -42,11 +42,11 @@ int dheap :: minchild(int i) {
   if ((i < 0)  || (i > size))
     throw std::exception("wrong index");
   int f = i * d + 1;
-  if (f >= size) 
+  if (f >= size)
     return -1;
   int l = min(i*d+d, size-1);
   int minc = f;
-  for(int k = f+1; k <= l; k++) {
+  for (int k = f+1; k <= l; k++) {
     if (arr[minc] > arr[k])
       minc = k;
   }
@@ -75,14 +75,14 @@ void dheap :: sort() {
   int n = size;
   while (size > 0) {
     swap(0, size-1);
-    size--; 
-    pogr(0); 
-  } 
-  size = n; 
+    size--;
+    pogr(0);
+  }
+  size = n;
 }
 
 void dheap :: print() {
-  for (int i = 0; i < size; i++) 
+  for (int i = 0; i < size; i++)
     std::cout << arr[i] << ' ';
   std::cout << std::endl;
 }

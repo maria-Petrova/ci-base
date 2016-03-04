@@ -1,12 +1,12 @@
-#ifndef GTEST_DHEAP_DHEAP_H
-#define GTEST_DHEAP_DHEAP_H
+#ifndef D_HEAP_D_HEAP_HEAP_H_
+#define D_HEAP_D_HEAP_HEAP_H_
 
 #include <iostream>
 #include <time.h>
 #include <cstdlib>
 
 class dheap {
-public:
+ public:
   int* arr;
   int d;
   int size;
@@ -22,4 +22,4 @@ public:
   void print();
 };
 
-#endif  // GTEST_D-HEAP_D-HEAP_H
+#endif  // D_HEAP_D_HEAP_HEAP_H_
