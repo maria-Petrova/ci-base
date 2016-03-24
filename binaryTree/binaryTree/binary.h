@@ -12,4 +12,4 @@ struct Node {
 
 void print(Node* n);
 void ptintobr(Node* n);
-#endif
+#endif // BINARYTREE_BINARYTREE_BINARY_H_

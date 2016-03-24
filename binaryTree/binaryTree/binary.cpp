@@ -18,7 +18,7 @@ void printobr(Node* n) {
   std::stack <Node*> st;
   st.push(n);
   while (!st.empty()) {
-   // if(n)
-    // if (n)
- }
+  // if(n)
+  // if (n)
+  }
 }
