@@ -10,6 +10,7 @@ struct Node {
   Node* parent;
 };
 
-void print(Node* n);
-void ptintobr(Node* n);
+int* printd(Node* root);
+int* printr(Node* root);
+int* prints(Node* root);
 #endif  // BINARYTREE_BINARYTREE_BINARY_H_
