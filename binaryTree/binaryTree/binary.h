@@ -1,4 +1,5 @@
-#pragma once
+#ifndef BINARYTREE_BINARYTREE_BINARY_H_
+#define BINARYTREE_BINARYTREE_BINARY_H_
 #include <iostream>
 #include <stack>
 
@@ -11,3 +12,4 @@ struct Node {
 
 void print(Node* n);
 void ptintobr(Node* n);
+#endif
