@@ -20,6 +20,6 @@ void main() {
   l->key = 2; l -> left = ll; l -> right = lr; l->parent = root;
   r->key = 7; r -> left = rl; r -> right = rr; r->parent = root;
   int* arr = new int[9];
-  arr = printd(root); //printr(root);//prints(root);
+  arr = printd(root);  //printr(root);prints(root);
   system("pause");
 }
