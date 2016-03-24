@@ -3,7 +3,7 @@
 #include <gtest\gtest.h>
 
 TEST(tree, can_Print_in_symm_order) {
-  int tmp[9] = {0, 1, 2, 3, 4, 5, 6, 7, 8}; 
+  int tmp[9] = {0, 1, 2, 3, 4, 5, 6, 7, 8};
   Node* root = new Node;
   Node* llr = new Node;
   Node* lrr = new Node;
@@ -29,7 +29,7 @@ TEST(tree, can_Print_in_symm_order) {
 }
 
 TEST(tree, can_Print_in_direct_order) {
-  int tmp[9] = {5, 2, 0, 1, 3, 4, 7, 6, 8}; 
+  int tmp[9] = {5, 2, 0, 1, 3, 4, 7, 6, 8};
   Node* root = new Node;
   Node* llr = new Node;
   Node* lrr = new Node;
@@ -55,7 +55,7 @@ TEST(tree, can_Print_in_direct_order) {
 }
 
 TEST(tree, can_Print_in_reverse_order) {
-  int tmp[9] = {1, 0, 4, 3, 2, 6, 8, 7, 5}; 
+  int tmp[9] = {1, 0, 4, 3, 2, 6, 8, 7, 5};
   Node* root = new Node;
   Node* llr = new Node;
   Node* lrr = new Node;

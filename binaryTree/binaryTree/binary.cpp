@@ -32,13 +32,11 @@ int* printr(Node* root) {
     if (root) {
       st.push(root);
       root = root -> left;
-	} 
-    else {
+    } else {
       tmp1 = st.top();
       if (tmp1->right && tmp2 != tmp1->right) {
         root = tmp1->right;
-      }
-      else {
+	  } else {
         st.pop();
         std::cout << tmp1->key <<" ";
         arr[i] = tmp1->key;
@@ -60,8 +58,7 @@ int* prints(Node* root) {
     if (root) {
       st.push(root);
       root = root->left;
-    }
-    else {
+    } else {
       root = st.top();
       st.pop();
       std::cout << root->key <<" ";
