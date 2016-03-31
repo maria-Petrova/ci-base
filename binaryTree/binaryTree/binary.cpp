@@ -36,7 +36,7 @@ int* printr(Node* root) {
       tmp1 = st.top();
       if (tmp1->right && tmp2 != tmp1->right) {
         root = tmp1->right;
-	  } else {
+      } else {
         st.pop();
         std::cout << tmp1->key <<" ";
         arr[i] = tmp1->key;
