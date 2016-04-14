@@ -18,6 +18,8 @@ class dheap {
   int minchild(int i);
   void pogr(int i);
   void okuch();
+  int delmin();
+  void insert(int key);
   void sort();
   void print();
 };

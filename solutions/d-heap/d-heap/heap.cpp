@@ -70,6 +70,20 @@ void dheap :: okuch() {
     pogr(i);
 }
 
+int dheap::delmin() {
+  int min = arr[0];
+  swap(size-1, 0);
+  size--;
+  okuch();
+  return min;
+}
+
+void dheap::insert(int key) {
+  arr[size] = key;
+  vspl(size);
+  size++;
+}
+
 void dheap :: sort() {
   okuch();
   int n = size;
