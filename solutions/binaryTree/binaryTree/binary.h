@@ -1,5 +1,5 @@
-#ifndef BINARYTREE_BINARYTREE_BINARY_H_
-#define BINARYTREE_BINARYTREE_BINARY_H_
+#ifndef SOLUTIONS_BINARYTREE_BINARYTREE_BINARY_H_
+#define SOLUTIONS_BINARYTREE_BINARYTREE_BINARY_H_
 #include <iostream>
 #include <stack>
 
@@ -13,4 +13,4 @@ struct Node {
 int* printd(Node* root);
 int* printr(Node* root);
 int* prints(Node* root);
-#endif  // BINARYTREE_BINARYTREE_BINARY_H_
+#endif  // SOLUTIONS_BINARYTREE_BINARYTREE_BINARY_H_

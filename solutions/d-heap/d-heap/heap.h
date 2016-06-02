@@ -1,5 +1,5 @@
-#ifndef D_HEAP_D_HEAP_HEAP_H_
-#define D_HEAP_D_HEAP_HEAP_H_
+#ifndef SOLUTIONS_D_HEAP_D_HEAP_HEAP_H_
+#define SOLUTIONS_D_HEAP_D_HEAP_HEAP_H_
 
 #include <iostream>
 #include <time.h>
@@ -24,4 +24,4 @@ class dheap {
   void print();
 };
 
-#endif  // D_HEAP_D_HEAP_HEAP_H_
+#endif  // SOLUTIONS_D_HEAP_D_HEAP_HEAP_H_
