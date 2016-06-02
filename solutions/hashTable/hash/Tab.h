@@ -1,5 +1,5 @@
-#ifndef SOLUTIONS_HASH_HASH_TAB_H_
-#define SOLUTIONS_HASH_HASH_TAB_H_
+#ifndef SOLUTIONS_HASHTABLE_HASH_TAB_H_
+#define SOLUTIONS_HASHTABLE_HASH_TAB_H_
 
 #include <cstring>
 #pragma once
@@ -125,4 +125,4 @@ KeyType HashTable<KeyType>::Getkey(int i)const {
   return (arr[i]->Getkey());
 }
 
-#endif  //  SOLUTIONS_HASH_HASH_TAB_H_
+#endif  //  SOLUTIONS_HASHTABLE_HASH_TAB_H_
