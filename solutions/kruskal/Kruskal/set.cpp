@@ -31,7 +31,7 @@ void sets :: un(int a, int b) {
       if (c != d) {
         if (harr[c] < harr[d]) {
           arr[c] = d;
-		} else {
+        } else {
           arr[d] = c;
           if (harr[a] == harr[b])
             ++harr[c];

@@ -16,4 +16,4 @@ class sets {
   void print();
   ~sets();
 };
-#endif //  SOLUTIONS_KRUSKAL_KRUSKAL_SET_H_
+#endif  // SOLUTIONS_KRUSKAL_KRUSKAL_SET_H_
