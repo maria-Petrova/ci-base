@@ -1,6 +1,6 @@
 #include "set.h"
 
-sets :: sets (int s) {
+sets :: sets(int s) {
   size = s;
   arr = new int[size];
   harr = new int[size];
@@ -35,11 +35,10 @@ void sets :: un(int a, int b) {
           arr[d] = c;
           if (harr[a] == harr[b])
             ++harr[c];
-
+        }
+      }
     }
-   }
   }
- }
 }
 
 int sets :: search(int a) {

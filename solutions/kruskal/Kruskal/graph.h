@@ -1,3 +1,5 @@
+#ifndef SOLUTIONS_KRUSKAL_KRUSKAL_GRAPH_H_
+#define SOLUTIONS_KRUSKAL_KRUSKAL_GRAPH_H_
 #include <iostream>
 #include <stack>
 #include "Set.h"
@@ -14,7 +16,8 @@ struct Graph {
   Edge* edges;
 };
 
-void ed(int, int, int, Edge*);
-void gr(int, int, Edge*, Graph*);
+void ed(int a, int b, int s, Edge *r);
+void gr(int vn, int en, Edge *rebr, Graph *g);
 void print(Graph*);
 void Krusk(Graph*, Graph*);
+#endif // SOLUTIONS_KRUSKAL_KRUSKAL_GRAPH_H_

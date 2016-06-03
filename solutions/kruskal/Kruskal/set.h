@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SOLUTIONS_KRUSKAL_KRUSKAL_SET_H_
+#define SOLUTIONS_KRUSKAL_KRUSKAL_SET_H_
 #include <iostream>
 #include <cstdlib>
 
@@ -7,7 +8,7 @@ class sets {
   int* arr;
   int* harr;
   int size;
-  sets(int s);
+  explicit sets(int s);
   void add(int a);
   void un(int a, int b);
   int search(int a);
@@ -15,3 +16,4 @@ class sets {
   void print();
   ~sets();
 };
+#endif // SOLUTIONS_KRUSKAL_KRUSKAL_SET_H_
