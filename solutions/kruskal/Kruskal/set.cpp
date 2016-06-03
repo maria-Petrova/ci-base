@@ -29,9 +29,9 @@ void sets :: un(int a, int b) {
       while (arr[d] != d)
         d = arr[d];
       if (c != d) {
-        if (harr[c] < harr[d])
+        if (harr[c] < harr[d]) {
           arr[c] = d;
-        else {
+		} else {
           arr[d] = c;
           if (harr[a] == harr[b])
             ++harr[c];
