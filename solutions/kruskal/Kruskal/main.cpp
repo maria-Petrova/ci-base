@@ -24,5 +24,4 @@ void main() {
   Graph grh1;
   Krusk(&grh, &grh1);
   print(&grh1);
-  system("pause");
 }
