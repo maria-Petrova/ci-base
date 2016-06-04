@@ -14,7 +14,7 @@ void countino(sets *set, int *co, int n, int m) {
     (*co)++;
     z = x + (y + 1)*n;
     (*set).add(z);
-	if (x != 0) {
+    if (x != 0) {
       if ((*set).arr[z - 1] != -1)
         (*set).un(z, z - 1);
       if ((*set).arr[z - n] != -1)
