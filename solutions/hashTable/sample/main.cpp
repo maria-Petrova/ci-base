@@ -80,5 +80,4 @@ void main(int argc, char *argv[]) {
     if (ht.state(j) == "FREE")
       std::cout << ht.state(j) << "\n";
   }
-  system("pause");
 }
