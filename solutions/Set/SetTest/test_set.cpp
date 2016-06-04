@@ -11,7 +11,7 @@ TEST(sets, can_add) {
   A.add(3);
   A.print();
   int* tmp = new int[5];
-  for (int i = 0; i < 5; i++) 
+  for (int i = 0; i < 5; i++)
     tmp[i] = -1;
   tmp[3] = 3;
   for (int i = 0; i < 5; i++)
@@ -25,7 +25,7 @@ TEST(sets, can_union) {
   A.un(1, 3);
   A.print();
   int* tmp = new int[5];
-  for (int i = 0; i < 5; i++) 
+  for (int i = 0; i < 5; i++)
     tmp[i] = -1;
   tmp[1] = 1;
   tmp[3] = 1;

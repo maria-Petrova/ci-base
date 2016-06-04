@@ -9,7 +9,7 @@ class sets {
   int* arr;
   int* harr;
   int size;
-  sets(int s);
+  explicit sets(int s);
   void add(int a);
   void un(int a, int b);
   int search(int a);
